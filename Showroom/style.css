@@ -1,0 +1,17 @@
+#wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    min-width: 400px;
+
+}
+
+.card-img-top {
+    width: 340px;
+    height: 340px;
+}

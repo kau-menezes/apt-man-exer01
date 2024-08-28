@@ -3,7 +3,7 @@
     "id": 1,
     "nome": "Body Splash Orquidea Noir",
     "descricao": "Produto 1",
-    "imagem": "bodysplash01.jpg",
+    "imagem": "../Dados/img/bodysplash01.jpg",
     "preco": 10.0, 
     "status": true, 
     "quantidade": 10 
@@ -12,16 +12,16 @@
     "id": 2,
     "nome": "Body Splash Rosa e Algodão",
     "descricao": "Produto 2",
-    "imagem": "bodysplash02.jpg",
+    "imagem": "../Dados/img/bodysplash02.jpg",
     "preco": 20.0, 
     "status": true, 
     "quantidade": 3
   },
   {
     "id": 3,
-    "nome": "Body Splash Boa Noite",
+    "nome": "Body Splash DeLeite",
     "descricao": "Produto 3",
-    "imagem": "bodysplash03.jpg",
+    "imagem": "../Dados/img/bodysplash04.jpg",
     "preco": 30.0, 
     "status": true, 
     "quantidade": 4
