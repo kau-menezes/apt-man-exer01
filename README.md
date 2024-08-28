@@ -5,7 +5,7 @@ Simulacao de carrinho de compras com localStorage
 # 1 - Criar um showroom - 2,5ptos (0,83 +/- cada)
 
 - [x] Elaborar um json contendo os mesmo produtos da loja porem aqui de uma forma mais demonstrativa, dentro do objeto conter status, nome do produto, valor , quantidade e imagem (a imagem pode ser uma url da web ou imagem baixada no projeto).
-- [ ] Caso o status seja true, uma bolinha vermelha deve aparecer no card do produto caso false uma bolinha verde, isso indica que o produto esta a venda ou nao.
+- [x] Caso o status seja true, uma bolinha vermelha deve aparecer no card do produto caso false uma bolinha verde, isso indica que o produto esta a venda ou nao.
 - [x] Incluir no projeto a fonte Robotoo para todo o sistema, o fonte deve ser importada do google fonts.
 
 # 2 - Login - 2,5ptos (0,83 +/- cada)

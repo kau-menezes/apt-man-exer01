@@ -23,14 +23,26 @@ document.addEventListener("DOMContentLoaded", function () {
           const cardTitle = document.createElement("h4");
           cardTitle.className = "card-title";
           cardTitle.textContent = produto.nome;
+
+          const cardDiv = document.createElement("div");
+          cardDiv.className = "card-div"
+
+          const status = document.createElement("div");
+          status.className = "card-status"
+          if (produto.status) {
+            status.style.backgroundColor = "#198f1f";
+          } else {
+            status.style.backgroundColor = "#cc3838";   
+          }
   
           const cardText = document.createElement("p");
           cardText.className = "card-text";
           cardText.textContent = "R$" + produto.preco.toFixed(2);
   
-          cardBody.appendChild(cardTitle);
-          cardBody.appendChild(cardText);
-        //   cardBody.appendChild(btnAdicionarAoCarrinho);
+          cardDiv.append(cardTitle);
+          cardDiv.append(status);
+          cardBody.appendChild(cardDiv);
+          cardBody.append(cardText);
   
           card.appendChild(imagem);
           card.appendChild(cardBody);
