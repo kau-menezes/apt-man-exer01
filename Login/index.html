@@ -17,12 +17,17 @@
     <main>
       <div class="container">
         <h1>Login</h1>
-          <input type="text" placeholder="Insira seu nome" id="nome" />
-          <div >
-            <input type="password" placeholder="Insira sua senha" id="senha" >
+          <div id="form">
+            <input type="text" placeholder="Insira seu nome" id="nome" />
+            <div id="password">
+              <input type="password" placeholder="Insira sua senha" id="senha" >
+              <button id="ps-visibility" onclick="passwordVisibility()">🙈</button>
+            </div>
           </div>
           <button id="showroom-btn"onclick="login()">Entrar</button>
-        </div>
+      </div>
+
+
         <p><a href="../Showroom/showroom.html">Visitar Showroom</a></p>
       </div>
     </main>

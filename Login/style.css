@@ -14,7 +14,7 @@ header {
 }
 
 main {
-  min-height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,12 +30,14 @@ main {
 }
 
 #showroom-btn {
+  width: 160px;
+  align-self: center;
   background: transparent;
   font: inherit;
   border: none;
   margin: 0;
-  padding: 0px 10px;
-  width: auto;
+  padding: 10px;
+
   overflow: visible;
   background-color: rgb(129, 105, 235);
   color: aliceblue;
@@ -79,7 +81,15 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 a{
+  width: 160px;
+  height: 45px;
   color: aliceblue;
   background-color: rgb(129, 105, 235);
   padding: 10px;
@@ -106,6 +116,29 @@ a:hover {
 }
 
 input {
+  width: 360px;
   padding: 5px;
   border: 2px solid #909090;
+}
+
+#ps-visibility {
+  align-self: center;
+  background: transparent;
+  font: inherit;
+  border: none;
+  margin: 0;
+
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px;
+}
+
+#password {
+  display: flex;
+  align-items: center;
+}
+
+#ps-visibility {
+  cursor: pointer;
 }

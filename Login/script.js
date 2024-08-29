@@ -24,3 +24,20 @@ function login() {
   })
   }
 }
+
+function passwordVisibility() {
+  
+  console.log("oi");
+  let btn = document.getElementById("ps-visibility"); 
+  let input = document.getElementById("senha"); 
+
+
+  if (btn.innerText == "🙈") {
+    input.type = "text";
+    btn.innerText = "🐵"
+
+  } else {
+    btn.innerText = "🙈"
+    input.type = "password"
+  }
+}
