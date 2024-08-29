@@ -92,4 +92,12 @@ function gerarDocumentoWord() {
   link.download = "carrinho.doc";
   link.click();
   document.getElementById("pedido").style.display = "block";
+  document.getElementById("modal-background").style.display = "block"; 
+  document.getElementById("modal-background").style.backgroundColor = "rgba(0, 0, 0, 0.5)"; 
+
+  document.getElementById("modal-dismiss").addEventListener("click", () =>  {
+    document.getElementById("modal-background").style.display = "none"; 
+    document.getElementById("modal-background").style.backgroundColor = "rgba(0, 0, 0, 0.5)"; 
+    document.getElementById("pedido").style.display = "none"; 
+  });
 }

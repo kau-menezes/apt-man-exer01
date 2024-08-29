@@ -13,20 +13,10 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
     <style>
-      #pedido {
-        display: none;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        background-color: green;
-        color: #ffff;
-        font-size: 1.4rem;
-      }
     </style>
   </head>
   <body>
+    <div id="modal-background"></div>
     <main>
       <section id="user-info">
         <a id="home" href="../Loja/loja.html"><span class="material-symbols-outlined">home</span></a>
@@ -37,7 +27,10 @@
         <h3 id="total"></h3>
         <button onclick="gerarDocumentoWord()">Realizar pedido</button>
       </section>
-      <p id="pedido">Pedido gerado com sucesso</p>
+      <div id="pedido">
+        <p>Pedido gerado com sucesso</p>
+        <button id="modal-dismiss">OK</button>
+      </div>
     </main>
   </body>
 </html>
