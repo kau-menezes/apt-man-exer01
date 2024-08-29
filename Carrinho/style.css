@@ -74,3 +74,37 @@ main {
     color: #ffff;
     font-size: 1.4rem;
   }
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background-color: transparent;
+    font: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#total {
+    margin-top: 30px;
+}
+
+
+#gerar-pedido {
+    padding: 10px;
+    background: rgb(129, 105, 235);
+    color: aliceblue;
+
+}
