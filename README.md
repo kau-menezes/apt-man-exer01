@@ -29,5 +29,5 @@ Simulacao de carrinho de compras com localStorage
 
 - [x] estilizar livremente porem de bom gosto o carrinho criando um arquivo .css.
 - [x] descobrir possiveis erros da pagina de carrinho.
-- [ ] apenas duas casas decimais devem ser apresentadas no total do pedido.
+- [x] apenas duas casas decimais devem ser apresentadas no total do pedido.
 - [x] nao há um botao dentro do modal de validacao para comunicacao com usuario de gerar pedido, colocar um botao que feche este modal.
