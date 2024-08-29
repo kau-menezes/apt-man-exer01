@@ -15,6 +15,7 @@ main {
     display: flex;
     justify-content: space-between;
     background-color: rgb(129, 105, 235);
+    height: 10vh;
 
 }
 
