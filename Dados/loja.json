@@ -4,7 +4,7 @@
     "nome": "Body Splash Orquidea Noir",
     "descricao": "Produto 1",
     "imagem": "../Dados/img/bodysplash01.jpg",
-    "preco": 10.0, 
+    "preco": 15.45, 
     "status": true, 
     "quantidade": 10 
   },
@@ -13,7 +13,7 @@
     "nome": "Body Splash Rosa e Algodão",
     "descricao": "Produto 2",
     "imagem": "../Dados/img/bodysplash02.jpg",
-    "preco": 20.0, 
+    "preco": 27.98, 
     "status": true, 
     "quantidade": 3
   },
@@ -22,7 +22,7 @@
     "nome": "Body Splash DeLeite",
     "descricao": "Produto 4",
     "imagem": "../Dados/img/bodysplash04.jpg",
-    "preco": 30.0, 
+    "preco": 31.27, 
     "status": true, 
     "quantidade": 4
   }, 
@@ -31,7 +31,7 @@
     "nome": "Body Splash Biscoito ou Bolacha",
     "descricao": "Produto 3",
     "imagem": "../Dados/img/bodysplash03.jpg",
-    "preco": 10.0, 
+    "preco": 8.11, 
     "status": true, 
     "quantidade": 10 
   },
@@ -40,7 +40,7 @@
     "nome": "Body Splash Morango Ruby",
     "descricao": "Produto 5",
     "imagem": "../Dados/img/bodysplash05.jpg",
-    "preco": 20.0, 
+    "preco": 21.22, 
     "status": true, 
     "quantidade": 3
   },
@@ -49,7 +49,16 @@
     "nome": "Body Splash Rosé",
     "descricao": "Produto 6",
     "imagem": "../Dados/img/bodysplash06.jpg",
-    "preco": 30.0, 
+    "preco": 35.83, 
+    "status": true, 
+    "quantidade": 4
+  },
+  {
+    "id": 7,
+    "nome": "Body Splash Maracujá",
+    "descricao": "Produto 7",
+    "imagem": "../Dados/img/bodysplash07.jpg",
+    "preco": 35.67, 
     "status": true, 
     "quantidade": 4
   }
