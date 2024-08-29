@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           const cardText = document.createElement("p");
           cardText.className = "card-text";
-          cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
+          cardText.textContent = "R$" + produto.preco.toFixed(2);
           
           const btnAdicionarAoCarrinho = document.createElement("a");
           btnAdicionarAoCarrinho.href = "#";

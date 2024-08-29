@@ -63,12 +63,21 @@ main {
 .card {
     width: 30%;
     min-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-left: 30px;
     margin-bottom: 10px;
+    gap: 10px;
     
+}
+
+#title {
+    margin-bottom: 30px;
 }
 
 .card-img-top {
@@ -95,5 +104,6 @@ main {
     color:rgb(70, 53, 148);
     background-color: rgb(242, 238, 245);
     padding: 5px 15px;
-    border-radius: 8px;
+    align-self: self-end;
+    
 }

@@ -16,14 +16,14 @@ Simulacao de carrinho de compras com localStorage
 
 # 3 - Loja - 2,5ptos (0,3 +/- cada)
 
-- [ ] o tema da loja pode ser mudado para escolha do aluno e o arquivo json deve incluir mais 6 produtos.
+- [x] o tema da loja pode ser mudado para escolha do aluno e o arquivo json deve incluir mais 6 produtos.
 - [x] as imagens devem estar baixadas no projeto e nao serem usadas como url.
 - [x] o Bootstrap deve ser retirado do projeto e a estilizacao dos cards da loja devem ser feitos via CSS.
 - [x] descobrir o porque os produtos nao aparecem na loja.
 - [ ] um alerta ou modal deve ser criado para validar a ação do usuario em incluir um produto no carrinho.
 - [x] o metodo map deve ser substituido por forEach.
-- [ ] descobrir o porque os produtosContainer nao estao sendo lidos ja que existe um id "produtos-container" na tag html.
-- [ ] estilizar livremente porem de bom gosto a loja criando um arquivo .css.
+- [x] descobrir o porque os produtosContainer nao estao sendo lidos ja que existe um id "produtos-container" na tag html.
+- [x] estilizar livremente porem de bom gosto a loja criando um arquivo .css.
 
 # 4 - Carrinho - 2,5ptos (0,65 +/- cada)
 
