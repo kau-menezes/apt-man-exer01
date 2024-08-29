@@ -21,7 +21,7 @@ Simulacao de carrinho de compras com localStorage
 - [x] o Bootstrap deve ser retirado do projeto e a estilizacao dos cards da loja devem ser feitos via CSS.
 - [x] descobrir o porque os produtos nao aparecem na loja.
 - [ ] um alerta ou modal deve ser criado para validar a ação do usuario em incluir um produto no carrinho.
-- [ ] o metodo map deve ser substituido por forEach.
+- [x] o metodo map deve ser substituido por forEach.
 - [ ] descobrir o porque os produtosContainer nao estao sendo lidos ja que existe um id "produtos-container" na tag html.
 - [ ] estilizar livremente porem de bom gosto a loja criando um arquivo .css.
 
