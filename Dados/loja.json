@@ -18,10 +18,37 @@
     "quantidade": 3
   },
   {
-    "id": 3,
+    "id": 4,
     "nome": "Body Splash DeLeite",
-    "descricao": "Produto 3",
+    "descricao": "Produto 4",
     "imagem": "../Dados/img/bodysplash04.jpg",
+    "preco": 30.0, 
+    "status": true, 
+    "quantidade": 4
+  }, 
+  {
+    "id": 3,
+    "nome": "Body Splash Biscoito ou Bolacha",
+    "descricao": "Produto 3",
+    "imagem": "../Dados/img/bodysplash03.jpg",
+    "preco": 10.0, 
+    "status": true, 
+    "quantidade": 10 
+  },
+  {
+    "id": 5,
+    "nome": "Body Splash Morango Ruby",
+    "descricao": "Produto 5",
+    "imagem": "../Dados/img/bodysplash05.jpg",
+    "preco": 20.0, 
+    "status": true, 
+    "quantidade": 3
+  },
+  {
+    "id": 6,
+    "nome": "Body Splash Rosé",
+    "descricao": "Produto 6",
+    "imagem": "../Dados/img/bodysplash06.jpg",
     "preco": 30.0, 
     "status": true, 
     "quantidade": 4

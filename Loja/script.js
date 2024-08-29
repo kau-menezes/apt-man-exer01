@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           const cardTitle = document.createElement("h5");
           cardTitle.className = "card-title";
-          cardTitle.textContent = produto.descricao;
+          cardTitle.textContent = produto.nome;
           
           const cardText = document.createElement("p");
           cardText.className = "card-text";
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
           btnAdicionarAoCarrinho.href = "#";
           btnAdicionarAoCarrinho.className =
           "btn btn-primary btn-adicionar-ao-carrinho";
-          btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
+          btnAdicionarAoCarrinho.innerHTML = `<span class="material-symbols-outlined" id="btn-add" >shopping_cart</span>`;
           btnAdicionarAoCarrinho.setAttribute("data-indice", index);
           
           cardBody.appendChild(cardTitle);

@@ -4,3 +4,96 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+main {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+#user-info {
+    max-width: 100vw ;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(129, 105, 235);
+
+}
+
+#info-user {
+    color: aliceblue;
+    margin: 20px;
+}
+
+#cart {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+}
+.material-symbols-outlined {
+    color: aliceblue;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+}
+
+#greetings, .wrap {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.greetings {
+    margin: 10px 20px ;
+}
+
+#produtos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.wrap {
+    width: 80%;
+}
+
+.card {
+    width: 30%;
+    min-width: 400px;
+}
+
+.card-body {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.card-img-top {
+    width: 340px;
+    height: 340px;
+    margin: 30px 30px 10px 30px;
+}
+
+.card-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #198f1f;
+    margin-right: 30px;
+}
+
+#btn-add {
+    color:rgb(70, 53, 148);
+    background-color: rgb(242, 238, 245);
+    padding: 5px 15px;
+    border-radius: 8px;
+}

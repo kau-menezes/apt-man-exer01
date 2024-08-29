@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
     <link rel="stylesheet" href="./style.css">
 
     <title>Loja</title>
@@ -22,22 +24,26 @@
   </head>
   <body>
     <main>
-      <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-      <div>
-        <h5 id="perfil"></h5>
-        <div class="idPerfil">
-          Protocolo atual:
-          <p id="idPerfil"></p>
+      <section id="user-info">
+        <div id="info-user">
+          <h5 id="perfil"></h5>
+          <div class="idPerfil">
+            <span>Protocolo atual:</span>
+            <span id="idPerfil"></span>
+          </div>
         </div>
-      </div>
-      <h1>Loja</h1>
-      <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-      <br />
-      <h2>Produtos</h2>
-      <br />
-      <div class="wrap">
-        <div id="produtos-container" class="row center"></div>
-      </div>
+        <a id="cart" href="../Carrinho/carrinho.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+      </section>
+      <section id="products">
+        <div id="greetings">
+          <h1 class="greetings">Loja</h1>
+          <p class="greetings">Bem vindo <span id="user"></span> , vamos as compras!</p>
+        </div>
+        <h2>Produtos</h2>
+        <div class="wrap">
+          <div id="produtos-container"></div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
